@@ -41,7 +41,7 @@ import com.github.oxo42.stateless4j.StateMachineConfig;
  */
 public class Main {
 
-    private enum State {
+     enum State {
         IDLE,
         SELECTION,
         RUNNING,
@@ -49,7 +49,7 @@ public class Main {
         PAUSED
     }
 
-    private enum Trigger {
+     enum Trigger {
         COIN_INSERTED,
         CANCEL,
         STOP,
